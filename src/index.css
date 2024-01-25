@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.font-playfair{
+  font-family: 'Playfair Display', serif;
+}
+.left--1{
+  left: -.9rem;
+}
+.min-h-screen-nav{
+  min-height: calc(100vh - 236px);
+}
