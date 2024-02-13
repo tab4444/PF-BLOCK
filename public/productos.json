@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Microprocesador AMD Ryzen 5600G 4.4 GHZ AM4",
+        "precio": 200000,
+        "stock": 16,
+        "descripcion": "número de nucleos de CPU: 6 \nnumero de hilos: 12 \nnumero de nucleos de GPU: 7 \nreloj de impulso maximo hasta 4,4GHz \npaquete AM4",
+        "imagen": "https://www.venex.com.ar/products_images/1638466775_sdfdgfeshsd.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Motherboard MSI MPG B550 Gaming Plus AM4",
+        "precio": 235000,
+        "stock": 25,
+        "descripcion": "CPU: admite procesadores AMD Ryzen de tercera generacion con socket AM4 y futuros procesadores de AMD Ryzen \nMEMORIA: 4 ranuras de memoria DDR4, admite hasta 128GB \nCHIPS: conjunto de chips AMD B550",
+        "imagen": "https://www.venex.com.ar/products_images/1674828979_msi-3.png"
+    },
+    {
+        "id": 3,
+        "nombre":"Memoria RAM Kingston Fury Beast DDR4 16GB 3600MHz",
+        "precio": 87000,
+        "stock": 32,
+        "descripcion": "Capacidad: 16GB \nTipo: DDR4 \nFrecuencia: 3600MHz \nLatencia: CL17",
+        "imagen":"https://www.venex.com.ar/products_images/1627495022_s6d5f4gsdf.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Disco duro HDD 4TB SEAGATE SATA III SKYHAWK",
+        "precio": 200000,
+        "stock": 9,
+        "descripcion": "Las cargas operativas en constante funcionamiento pueden sacar partido de hasta 14 TB con unidades diseñadas para sistemas DVR y NVR. Las unidades de vigilancia SkyHawk están equipadas con ImagePerfect™ y SkyHawk Health Management a fin de ayudarle a superar fácilmente todos sus desafíos.",
+        "imagen": "https://www.venex.com.ar/products_images/1615295542_disco_duro_hdd_4_tb_seagate_sata_iii_skyhawk.jpg"
+    },
+    {
+        "id": 5,
+        "nombre":"Disco solido SSD Gigabyte 500GB M.2 NVME GM2500G",
+        "precio": 60000,
+        "stock": 13,
+        "descripcion": "Capacidad total: 500GB \nInterfaz: PCI-Express 3.0 x4, NVMe 1.4 \n Factor de forma: M.2 2280",
+        "imagen": "https://www.venex.com.ar/products_images/1651691172_gigabyte_m.2_ssd_500gb-01.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Placa de video Gigabyte NVIDIA GeForce RTX 3060 Gaming OC 8GB",
+        "precio": 430000,
+        "stock": 4,
+        "descripcion": "procesamiento de graficos: GeForce RTX 3060",
+        "imagen": "https://www.venex.com.ar/products_images/1707246289_3060-1.png"
+    }
+]
