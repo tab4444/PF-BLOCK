@@ -1,5 +1,7 @@
+import ItemCount from "./components/ItemCount"
 import ItemListContainer from "./components/ItemListContainer"
 import NavBar from "./components/NavBar"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
         <p className="cursor-pointer">tienda</p>
         <p className="cursor-pointer">contacto</p>
       </div>
-      <ItemListContainer/>
+      <ItemListContainer saludo="a la mejor tienda de productos tecnologicos en Argentina"/>
+      <Footer/>
     </>
   )
 }

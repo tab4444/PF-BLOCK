@@ -46,5 +46,61 @@
         "stock": 4,
         "descripcion": "procesamiento de graficos: GeForce RTX 3060",
         "imagen": "https://www.venex.com.ar/products_images/1707246289_3060-1.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Fuente Corsair 550W CX550F 80+Bronze Modular White",
+        "precio": 99990,
+        "stock": 11,
+        "descripcion": "Tamaño del ventilador: mm 120 mm \n RGB: si \n Cable de fuente: no incluye",
+        "imagen": "https://www.venex.com.ar/products_images/1672668634_fuente-1.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Gabinete Thermaltake H200 TG RGB Black",
+        "precio": 113000,
+        "stock": 2,
+        "descripcion": "Dimensiones: 16,4 x 8,3 x 17,9 pulgadas \n Peso neto: 7.6kg \n Material: SPCC",
+        "imagen": "https://www.venex.com.ar/products_images/1573139841_ca40d8ea67879310a6c8f6929220b088.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Monitor 27 LED Samsung T350 IPS 76Hz",
+        "precio": 270000,
+        "stock": 1,
+        "descripcion": "Plano: si \n Resolución: 1920 x 1080 \n Cuadros por segundo 75 Hz max",
+        "imagen": "https://www.venex.com.ar/products_images/1630934516_dsgfsdf.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Teclado Numerico Klipxtreme Abacus",
+        "precio": 12000,
+        "stock": 16,
+        "descripcion": "El teclado numérico KNP-100 de Klip Xtreme es perfecto para digitar números y también para disfrutar tus juegos de video favoritos. Su compacto y estilizado diseño es tan práctico que permite colocarlo sobre el escritorio así como llevarlo contigo a todas partes con la misma facilidad.",
+        "imagen": "https://www.venex.com.ar/products_images/1686251921_adfgsdfgdfsg.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Teclado Redragon K552 Kumara 80% Chroma RGB SW RED DP BLACK",
+        "precio": 65000,
+        "stock": 4,
+        "descripcion": "Tipo de teclado: mecanico \n Tipo de switch: Outemu Red \n Tamaño de teclado: Tenkeyless",
+        "imagen": "https://www.venex.com.ar/products_images/1601297709_k552rgbsp1512x512.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Mouse HyperX Pulsefire FPS Pro 16000DPI RGB",
+        "precio": 80990,
+        "stock": 8,
+        "descripcion": "6 botones programables \n Memoria interna para almancenar personalizaciones",
+        "imagen": "https://www.venex.com.ar/products_images/1537018180_hxfeaturesmousepulsefirefpspro.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Auricular Corsair HS65 Surround White",
+        "precio": 110000,
+        "stock": 3,
+        "descripcion": "Tipo de auricular: cableado \n Sonido envolvente: si \n Audio: Sonido Dolby \n Longitud de cable: 1,8 m",
+        "imagen": "https://www.venex.com.ar/products_images/1689618574_h65-4.png"
     }
 ]
