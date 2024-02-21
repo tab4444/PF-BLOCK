@@ -17,7 +17,6 @@ function App() {
       </div>
       <ItemListContainer saludo="a la mejor tienda de productos tecnologicos en Argentina"/>
       <Footer/>
-      <ItemDetailContainer/>
     </>
   )
 }

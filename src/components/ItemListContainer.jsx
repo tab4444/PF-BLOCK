@@ -1,9 +1,11 @@
 import {useState, useEffect} from "react";
 import ItemList from "./ItemList";
+import ItemDetailContainer from "./ItemDetailContainer";
 
 const ItemListContainer = ({saludo}) => {
     
     const [productos, setProductos] = useState([]);
+    const [productoSeleccionado, setProductoSeleccionado] = useState(null);
 
     useEffect(() => {
     const fetchData = async () => {
@@ -17,7 +19,11 @@ const ItemListContainer = ({saludo}) => {
     }
     fetchData();
 
-    },[])
+    },[]);
+
+    const VerDetalles = (producto) => {
+        setProductoSeleccionado(producto);
+    }
 
     return (
         <div className='flex flex-col gap-y-10 p-10 bg-black justify-center items-center min-h-screen-nav'>
@@ -29,12 +35,13 @@ const ItemListContainer = ({saludo}) => {
 
             {productos.length == 0
             ? 
-            <h1>cargando...</h1> 
-            : 
-            <div className="flex flex-row gap-4 flex-wrap justify-center">
-                <ItemList productos={productos}/>
-            </div>
-            }     
+            (<h1>cargando...</h1>) 
+            : productoSeleccionado ? (<ItemDetailContainer producto={productoSeleccionado}/>
+            ) : (
+                <div className="flex flex-row gap-4 flex-wrap justify-center">
+                    <ItemList productos={productos} verDetalles={VerDetalles}/>
+                </div>
+            )}     
         </div>
     )
 }

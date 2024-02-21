@@ -1,6 +1,6 @@
 import { IoEyeOutline } from "react-icons/io5";
 
-const ItemList = ({productos}) => {
+const ItemList = ({productos, verDetalles}) => {
     return (
 
         productos.map((producto) => {
@@ -11,7 +11,7 @@ const ItemList = ({productos}) => {
                     <p>{producto.nombre}</p>     
                     <p className="text-neutral-500">{producto.tipo}</p>            
                     <p className="font-bold text-lg">${producto.precio}</p>
-                    <button className="flex flex-row gap-0 items-center border justify-center rounded-md gap-x-2 uppercase text-sm hover:bg-neutral-100">ver detalles<IoEyeOutline /></button>
+                    <button className="flex flex-row gap-0 items-center border justify-center rounded-md gap-x-2 uppercase text-sm hover:bg-neutral-100" onClick={() => verDetalles(producto)}>ver detalles<IoEyeOutline /></button>
                 </div>
             )
         })
