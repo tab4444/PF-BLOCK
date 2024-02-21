@@ -7,9 +7,9 @@ const Footer = () => {
             <img className='w-64' src="/img/logo block gris.png" alt="block" />
             <ul>
                 <li><strong className='uppercase font-unbounded text-green-500'>Información de contacto</strong></li>
-                <li>Email: thiagoblock445@gmail.com</li>
-                <li>Github: <a target='blank' href="https://github.com/tab4444">tab4444</a></li>
-                <li>LinkedIn: <a target='blank' href="https://www.linkedin.com/in/thiagoblock/">Thiago Block</a></li>
+                <li>Email: <a className='font-bold' href="">thiagoblock445@gmail.com</a></li>
+                <li>Github: <a className='font-bold' target='blank' href="https://github.com/tab4444">tab4444</a></li>
+                <li>LinkedIn: <a className='font-bold' target='blank' href="https://www.linkedin.com/in/thiagoblock/">Thiago Block</a></li>
             </ul>
         </div>
         <hr className='border-neutral-800'/>

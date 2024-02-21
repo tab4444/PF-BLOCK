@@ -5,7 +5,8 @@
         "precio": 200000,
         "stock": 16,
         "descripcion": "número de nucleos de CPU: 6 \nnumero de hilos: 12 \nnumero de nucleos de GPU: 7 \nreloj de impulso maximo hasta 4,4GHz \npaquete AM4",
-        "imagen": "https://www.venex.com.ar/products_images/1638466775_sdfdgfeshsd.jpg"
+        "imagen": "https://www.venex.com.ar/products_images/1638466775_sdfdgfeshsd.jpg",
+        "tipo": "componente"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "precio": 235000,
         "stock": 25,
         "descripcion": "CPU: admite procesadores AMD Ryzen de tercera generacion con socket AM4 y futuros procesadores de AMD Ryzen \nMEMORIA: 4 ranuras de memoria DDR4, admite hasta 128GB \nCHIPS: conjunto de chips AMD B550",
-        "imagen": "https://www.venex.com.ar/products_images/1674828979_msi-3.png"
+        "imagen": "https://www.venex.com.ar/products_images/1674828979_msi-3.png",
+        "tipo": "componente"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "precio": 87000,
         "stock": 32,
         "descripcion": "Capacidad: 16GB \nTipo: DDR4 \nFrecuencia: 3600MHz \nLatencia: CL17",
-        "imagen":"https://www.venex.com.ar/products_images/1627495022_s6d5f4gsdf.jpg"
+        "imagen":"https://www.venex.com.ar/products_images/1627495022_s6d5f4gsdf.jpg",
+        "tipo": "componente"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "precio": 200000,
         "stock": 9,
         "descripcion": "Las cargas operativas en constante funcionamiento pueden sacar partido de hasta 14 TB con unidades diseñadas para sistemas DVR y NVR. Las unidades de vigilancia SkyHawk están equipadas con ImagePerfect™ y SkyHawk Health Management a fin de ayudarle a superar fácilmente todos sus desafíos.",
-        "imagen": "https://www.venex.com.ar/products_images/1615295542_disco_duro_hdd_4_tb_seagate_sata_iii_skyhawk.jpg"
+        "imagen": "https://www.venex.com.ar/products_images/1615295542_disco_duro_hdd_4_tb_seagate_sata_iii_skyhawk.jpg",
+        "tipo": "componente"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "precio": 60000,
         "stock": 13,
         "descripcion": "Capacidad total: 500GB \nInterfaz: PCI-Express 3.0 x4, NVMe 1.4 \n Factor de forma: M.2 2280",
-        "imagen": "https://www.venex.com.ar/products_images/1651691172_gigabyte_m.2_ssd_500gb-01.png"
+        "imagen": "https://www.venex.com.ar/products_images/1651691172_gigabyte_m.2_ssd_500gb-01.png",
+        "tipo": "componente"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "precio": 430000,
         "stock": 4,
         "descripcion": "procesamiento de graficos: GeForce RTX 3060",
-        "imagen": "https://www.venex.com.ar/products_images/1707246289_3060-1.png"
+        "imagen": "https://www.venex.com.ar/products_images/1707246289_3060-1.png",
+        "tipo": "componente"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "precio": 99990,
         "stock": 11,
         "descripcion": "Tamaño del ventilador: mm 120 mm \n RGB: si \n Cable de fuente: no incluye",
-        "imagen": "https://www.venex.com.ar/products_images/1672668634_fuente-1.png"
+        "imagen": "https://www.venex.com.ar/products_images/1672668634_fuente-1.png",
+        "tipo": "componente"
     },
     {
         "id": 8,
@@ -61,15 +68,17 @@
         "precio": 113000,
         "stock": 2,
         "descripcion": "Dimensiones: 16,4 x 8,3 x 17,9 pulgadas \n Peso neto: 7.6kg \n Material: SPCC",
-        "imagen": "https://www.venex.com.ar/products_images/1573139841_ca40d8ea67879310a6c8f6929220b088.jpg"
+        "imagen": "https://www.venex.com.ar/products_images/1573139841_ca40d8ea67879310a6c8f6929220b088.jpg",
+        "tipo": "componente"
     },
     {
         "id": 9,
         "nombre": "Monitor 27 LED Samsung T350 IPS 76Hz",
         "precio": 270000,
         "stock": 1,
-        "descripcion": "Plano: si \n Resolución: 1920 x 1080 \n Cuadros por segundo 75 Hz max",
-        "imagen": "https://www.venex.com.ar/products_images/1630934516_dsgfsdf.png"
+        "descripcion": "Plano: si \n Resolución: 1920 x 1080 \n Frecuencia de actualización: 75Hz",
+        "imagen": "https://www.venex.com.ar/products_images/1630934516_dsgfsdf.png",
+        "tipo": "monitor"
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "precio": 12000,
         "stock": 16,
         "descripcion": "El teclado numérico KNP-100 de Klip Xtreme es perfecto para digitar números y también para disfrutar tus juegos de video favoritos. Su compacto y estilizado diseño es tan práctico que permite colocarlo sobre el escritorio así como llevarlo contigo a todas partes con la misma facilidad.",
-        "imagen": "https://www.venex.com.ar/products_images/1686251921_adfgsdfgdfsg.png"
+        "imagen": "https://www.venex.com.ar/products_images/1686251921_adfgsdfgdfsg.png",
+        "tipo": "periferico"
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "precio": 65000,
         "stock": 4,
         "descripcion": "Tipo de teclado: mecanico \n Tipo de switch: Outemu Red \n Tamaño de teclado: Tenkeyless",
-        "imagen": "https://www.venex.com.ar/products_images/1601297709_k552rgbsp1512x512.png"
+        "imagen": "https://www.venex.com.ar/products_images/1601297709_k552rgbsp1512x512.png",
+        "tipo": "periferico"
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "precio": 80990,
         "stock": 8,
         "descripcion": "6 botones programables \n Memoria interna para almancenar personalizaciones",
-        "imagen": "https://www.venex.com.ar/products_images/1537018180_hxfeaturesmousepulsefirefpspro.jpg"
+        "imagen": "https://www.venex.com.ar/products_images/1537018180_hxfeaturesmousepulsefirefpspro.jpg",
+        "tipo": "periferico"
     },
     {
         "id": 13,
@@ -101,6 +113,70 @@
         "precio": 110000,
         "stock": 3,
         "descripcion": "Tipo de auricular: cableado \n Sonido envolvente: si \n Audio: Sonido Dolby \n Longitud de cable: 1,8 m",
-        "imagen": "https://www.venex.com.ar/products_images/1689618574_h65-4.png"
+        "imagen": "https://www.venex.com.ar/products_images/1689618574_h65-4.png",
+        "tipo": "periferico"
+    },
+    {
+        "id": 14,
+        "nombre": "Monitor 27 Philips Curvo 27E1SCA/55 FHD 75Hz",
+        "precio": 243000,
+        "stock": 4,
+        "descripcion": "Resolución: 1920 x 1080 \n Tamaño de pantalla: 27 pulgadas \n Frecuencia de actualización: 75Hz",
+        "imagen": "https://www.venex.com.ar/products_images/1639157228_moni.png",
+        "tipo": "monitor"
+    },
+    {
+        "id": 15,
+        "nombre": "Mouse Pad Genius G-Pad 300s Negro",
+        "precio": 6000,
+        "stock": 18,
+        "descripcion": "Dimensiones: 320 x 270 x 3mm",
+        "imagen": "https://www.venex.com.ar/products_images/1667411839_g-300s-2.png",
+        "tipo": "periferico"
+    },
+    {
+        "id": 16,
+        "nombre": "Mouse Corsair M55 Pro RGB 12400DPI Ambidiestro",
+        "precio": 52000,
+        "stock": 1,
+        "descripcion": "Conectividad: cableado \n Cable: 1.8m \n DPI: 12.400 DPI",
+        "imagen": "https://www.venex.com.ar/products_images/1565377041_ch9308011na.jpg",
+        "tipo": "periferico"
+    },
+    {
+        "id": 17,
+        "nombre": "Notebook Asus X515EA i3 1115G4 4Gb SSD 256Gb 15.6 FHD Free",
+        "precio": 590000,
+        "stock": 4,
+        "descripcion": "Almacenamiento: 256Gb \n Memoria RAM: 4Gb \n Resolución: 1920 x 1080",
+        "imagen": "https://www.venex.com.ar/products_images/1675426184_4gb.jpg",
+        "tipo": "notebook"
+    },
+    {
+        "id": 18,
+        "nombre": "Notebook Asus X515EA i5 1135G7 8Gb SSD 256Gb 15.6 Free",
+        "precio": 750000,
+        "stock": 8,
+        "descripcion": "Almacenamiento: 256Gb \n Memoria RAM: 8Gb \n Resolución: 1920 x 1080",
+        "imagen": "https://www.venex.com.ar/products_images/1630931543_1628167777_asus_x515_m515_product_photo__1g_slate_gray_13.png",
+        "tipo": "notebook"
+    },
+    {
+        "id": 19,
+        "nombre": "Notebook Lenovo Thinkpad E15 i5 1235U 8Gb SSD 256Gb 15.6 Free",
+        "precio": "1200000",
+        "stock": 6,
+        "descripcion": "Almacenamiento: 256Gb \n Memoria RAM: 8Gb \n Resolución: 1920 x 1080",
+        "imagen": "https://www.venex.com.ar/products_images/1698326099_1.png",
+        "tipo": "notebook"
+    },
+    {
+        "id": 20,
+        "nombre": "Monitor 32 LG 32GN600 QHD LED 165Hz",
+        "precio": 820000,
+        "stock": 3,
+        "descripcion": "Tamaño: 31.5 pulgadas \n Resolución: 2560 x 1440 \n Frecuencia de actualización: 165Hz",
+        "imagen": "https://www.venex.com.ar/products_images/1660761339_32gn6004.png",
+        "tipo": "monitor"
     }
 ]
