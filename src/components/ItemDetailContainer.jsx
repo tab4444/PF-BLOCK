@@ -1,8 +1,30 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import ItemCount from './ItemCount'
+import { useParams } from 'react-router-dom'
 
-const ItemDetailContainer = ({producto}) => {
+const ItemDetailContainer = () => {
+  const [producto, setProducto] = useState([]);
+
+  const {id} = useParams();
+
+  useEffect(() => {
+    const fetchData = async () => {
+        try{
+        const response = await fetch("/productos.json");
+        const data = await response.json();
+        const producto = data.find((p)=>p.id == id)
+        setProducto(producto);
+        }catch(err){
+        console.log("Error en el fetch" + err);
+        }
+    }
+    fetchData();
+
+    },[]);
+
   return (
-    <div className='flex flex-col gap-y-1 justify-center items-center font-montserrat mt-4 bg-neutral-100 p-16 max-w-screen-md rounded-md'>
+    <div className="flex justify-center items-center bg-neutral-200">
+      <div className='flex flex-col gap-y-1 justify-center items-center font-montserrat m-4 bg-neutral-100 p-16 max-w-screen-md rounded-md'>
       <hr className='border-neutral-300 w-full' />
       <h1 className='uppercase text-xl font-normal'>{producto.nombre}</h1>
       <p className='text-neutral-400'>{producto.tipo}</p>
@@ -12,15 +34,13 @@ const ItemDetailContainer = ({producto}) => {
         <div className="flex flex-col gap-y-2">
           <h2 className='text-3xl'>${producto.precio}</h2>
           <h3>Stock: {producto.stock}</h3>
-          <div className="flex flex-row gap-x-4">
-            <input className='max-w-16 h-12 bg-neutral-200 rounded-lg p-2 text-xl' type="number" name="" id="" value="1"/>
-            <button className='w-32 h-12 bg-green-500 rounded-md text-white font-medium hover:bg-green-600'>Comprar</button>
-          </div>
+          <ItemCount producto={producto} inicial={1}/>
         </div>
       </div>
       <hr />
       <h2 className='text-xl'>Descripción:</h2>
       <p className='text-sm text-neutral-500'>{producto.descripcion}</p>
+    </div>
     </div>
   )
 }
