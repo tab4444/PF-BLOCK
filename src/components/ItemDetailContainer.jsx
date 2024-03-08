@@ -1,6 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useContext} from 'react'
 import ItemCount from './ItemCount'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import { CartContext } from '../context/CartContext'
 
 const ItemDetailContainer = () => {
   const [producto, setProducto] = useState([]);
@@ -22,6 +23,15 @@ const ItemDetailContainer = () => {
 
     },[]);
 
+    const [cart, setCart] = useState(false);
+
+    const {agregarCarrito} = useContext(CartContext);
+
+    const onAdd = (contador) => {
+      setCart(true)
+      agregarCarrito({producto}, contador);
+    }
+
   return (
     <div className="flex justify-center items-center bg-neutral-200">
       <div className='flex flex-col gap-y-1 justify-center items-center font-montserrat m-4 bg-neutral-100 p-16 max-w-screen-md rounded-md'>
@@ -34,7 +44,7 @@ const ItemDetailContainer = () => {
         <div className="flex flex-col gap-y-2">
           <h2 className='text-3xl'>${producto.precio}</h2>
           <h3>Stock: {producto.stock}</h3>
-          <ItemCount producto={producto} inicial={1}/>
+          {cart ? <Link to={"/carrito"}>Ir al carrito</Link> : <ItemCount stock={producto.stock} inicial={1} onAdd={onAdd}/>}
         </div>
       </div>
       <hr />

@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
         <nav className="flex flex-row gap-x-4 items-center justify-between w-full bg-black text-white pr-10 pl-10 text-xl">
             <SlMagnifier className='cursor-pointer'/>
-            <Link to={"/"}><img className='w-48' src="/img/logo-black.png" alt="logo thiago block" /></Link>
+            <Link to={"/  "}><img className='w-48' src="/img/logo-black.png" alt="logo thiago block" /></Link>
             <CartWidget/>
         </nav>
         <ul className="flex flex-row gap-x-5 items-center justify-center capitalize font-montserrat font-medium text-sm p-2 bg-black border-b-8 border-green-500">
