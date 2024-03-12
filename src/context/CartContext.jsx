@@ -8,7 +8,7 @@ const CartProvider = ({children}) => {
 
     const agregarCarrito = (producto, cantidad) => {
         const productoExistente = cart.findIndex(prod => prod.producto.id == producto.id)
-
+        producto.stock = producto.stock - cantidad;
         if(productoExistente == -1){
             setCart([...cart, {producto,cantidad}])
         }else{

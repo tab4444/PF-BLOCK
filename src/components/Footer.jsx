@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = React.memo(() => {
     return (
     <footer className='bg-neutral-950 border-t border-neutral-700'>
         <div className="flex flex-row justify-around p-8 text-white font-montserrat items-center">
@@ -16,6 +16,6 @@ const Footer = () => {
         <p className="flex justify-center p-2 text-neutral-500 gap-x-2 font-unbounded">Developed by<a target='blank' className='text-neutral-300 hover:text-green-500 transition-all' href="https://github.com/tab4444">tab4</a></p>
     </footer>
     )
-}
+})
 
 export default Footer

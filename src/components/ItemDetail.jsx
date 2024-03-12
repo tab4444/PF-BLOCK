@@ -9,7 +9,7 @@ const ItemDetail = ({producto}) => {
     const {agregarCarrito} = useContext(CartContext)
 
     const onAdd = (contador) => {
-        setCart(true)
+        setCart(true) 
         agregarCarrito(producto, contador)
     }
     return (
