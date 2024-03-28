@@ -15,6 +15,7 @@ import { useEffect } from "react";
 
 function App() {
   //coleccion
+  /*
   const [products, setProducts] = useState([])
   useEffect(()=> {
     const db = getFirestore()
@@ -25,8 +26,9 @@ function App() {
       )))
     })
   })
-
+  */
   //coleccion filtrada
+  /*
   const [productos, setProductos] = useState([])
   useEffect(()=>{
     const db = getFirestore()
@@ -44,8 +46,10 @@ function App() {
       )))
     })
   })
+  */
 
   // documento
+  /*
   const [product,setProduct] = useState(null);
   useEffect(()=> {
     const db = getFirestore();
@@ -55,7 +59,7 @@ function App() {
         setProduct({id: snapshot.id, ...snapshot.data()})
       }
     })
-  })
+  })*/
 
   return (
     <>

@@ -6,12 +6,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAqIZ-o6UCANgv537GjSejWBtawqLplTXo",
-  authDomain: "blockelectronicos.firebaseapp.com",
-  projectId: "blockelectronicos",
-  storageBucket: "blockelectronicos.appspot.com",
-  messagingSenderId: "728762467192",
-  appId: "1:728762467192:web:63cdbd594895baa0bb3e8d"
+  apiKey: "AIzaSyCCru2BgLd50mwejHb4e-d9lJT3tN6QcE4",
+  authDomain: "block-8b839.firebaseapp.com",
+  projectId: "block-8b839",
+  storageBucket: "block-8b839.appspot.com",
+  messagingSenderId: "57395761281",
+  appId: "1:57395761281:web:69c532e382c61b00787d80"
 };
 
 const app = initializeApp(firebaseConfig);

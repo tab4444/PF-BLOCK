@@ -3,6 +3,7 @@ import ItemCount from './ItemCount'
 import ItemDetail from './ItemDetail'
 import { Link, useParams } from 'react-router-dom'
 import { CartContext } from '../context/CartContext'
+import { getFirestore, doc, getDoc } from 'firebase/firestore'
 
 const ItemDetailContainer = () => {
   const [producto, setProducto] = useState([]);
@@ -10,18 +11,15 @@ const ItemDetailContainer = () => {
   const {id} = useParams();
 
   useEffect(() => {
-    const fetchData = async () => {
-        try{
-        const response = await fetch("/productos.json");
-        const data = await response.json();
-        const producto = data.find((p)=>p.id == id)
-        setProducto(producto);
-        }catch(err){
-        console.log("Error en el fetch" + err);
-        }
-    }
-    fetchData();
-
+    const db = getFirestore()
+    const nuevoDoc = doc(db, "producto", id);
+    
+    getDoc(nuevoDoc)
+    .then(res=>{
+      const data = res.data()
+      const nuevoProducto = {id: res.id,...data}
+      setProducto(nuevoProducto)
+    })
     },[]);
 
   return (
