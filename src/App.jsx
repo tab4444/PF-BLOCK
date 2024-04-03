@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Error from "./components/Error";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
 import CartProvider from "./context/CartContext";
 
 import { useState } from "react";
@@ -74,6 +75,8 @@ function App() {
             <Route path="producto/:id" element={<ItemDetailContainer/>}/>
 
             <Route path="/carrito" element={<Cart/>}/>
+
+            <Route path="/checkout" element={<Checkout/>}></Route>
 
             <Route path="*" element={<Error/>}/>
           </Routes>
